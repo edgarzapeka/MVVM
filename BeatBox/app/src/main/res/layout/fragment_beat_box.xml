@@ -13,7 +13,7 @@
             android:id="@+id/palyback_speed_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Playback Speed: 0"
+            android:text="Playback Volume: 100%"
             android:padding="10dp"/>
         <SeekBar
             android:id="@+id/volume_bar"
@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:max="100"
-            android:progress="0"
+            android:progress="100"
             android:layout_gravity="bottom"/>
     </LinearLayout>
 </layout>

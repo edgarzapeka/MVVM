@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SeekBar;
 
+
 import com.example.edgarzapeka.beatbox.databinding.FragmentBeatBoxBinding;
 import com.example.edgarzapeka.beatbox.databinding.ListItemSoundBinding;
 
@@ -46,19 +47,15 @@ public class BeatBoxFragment  extends Fragment {
         binding.volumeBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                binding.palybackSpeedText.setText("Playback Speed: " + i);
+                binding.palybackSpeedText.setText("Playback Volume: " + i + "%");
                 mBeatBox.setVolume((float)i/100);
             }
 
             @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-
-            }
+            public void onStartTrackingTouch(SeekBar seekBar) {}
 
             @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-
-            }
+            public void onStopTrackingTouch(SeekBar seekBar) {}
         });
 
         return binding.getRoot();
