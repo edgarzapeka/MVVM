@@ -5,12 +5,15 @@ dangerously, brushing and hurting another human being. It helps with the hard pa
 your opponent into submission.
 
 ### Features
-1) MVVM architecture
-2) Play sounds
-3) Works with assets
-4) Controle volume
-5) Has nice interface
+
+1. MVVM architecture
+2. Play sounds
+3. Works with assets
+4. Controle volume
+5. Has nice interface
 
 ## Demo
 
-![alt text](https://github.com/edgarzapeka/MVVM/blob/master/githubIntefaceDemo/beatbox_app.gif)
+<p align="center">
+  <img src="./beatbox_app.gif"/>
+</p>
